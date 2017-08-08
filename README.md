@@ -1,3 +1,4 @@
+===============================================
 # trn_devops
 The repository contains tasks and the results of their implementation.
 
@@ -13,3 +14,4 @@ Task for Module 1
 		- clone your repository on machine where git is installed and checkout “task1” branch, print to console content of text file from item 3.
 		- ping between machines should work via DNS names
 8.	Commit Vagrantfile into “task1” branch.
+===============================================
