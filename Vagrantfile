@@ -27,12 +27,12 @@ BRANCH_NAME = "task1"
 README_FILE = "README.md"
 
 $script_changing_file_hosts = <<SCRIPT
-	sudo echo -e $1 | sudo tee -a /etc/hosts
-	sudo echo -e $2 | sudo tee -a /etc/hosts
+	echo -e $1 | tee -a /etc/hosts
+	echo -e $2 | tee -a /etc/hosts
 SCRIPT
 
 $script_performing_task1 = <<SCRIPT
-	sudo yum install git -y
+	yum install git -y
 	git clone $1
 	cd $2
 	git checkout $3
